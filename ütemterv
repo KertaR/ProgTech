@@ -1,0 +1,9 @@
+ACT VER: v0.1
+v0.1
+- Login felület (PIPA)
+- Átirányítás (PIPA)
+- MVC model létrehozása (PIPA)
+v0.2
+- Adatbáziskapcsolat
+- Bejelentkezés
+- Rendelés és szállítás
