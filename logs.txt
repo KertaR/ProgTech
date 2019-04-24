@@ -1,0 +1,10 @@
+ápr. 24, 2019 2:31:26 DU. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés! (Valami) 
+ápr. 24, 2019 2:31:59 DU. Models.LoginModel IsUser
+INFO: Sikertelen bejelentkezés! (Kacsa) 
+ápr. 24, 2019 2:37:28 DU. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés! (Valami) 
+ápr. 24, 2019 2:37:32 DU. Models.CustomerModel AddData
+INFO: Adatok feltöltése...
+ápr. 24, 2019 2:37:39 DU. Models.CustomerModel AddData
+INFO: Adatok feltöltése...
