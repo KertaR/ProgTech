@@ -4,6 +4,10 @@ v0.1
 - Átirányítás (PIPA)
 - MVC model létrehozása (PIPA)
 v0.2
+- Vársárlói felület
+- Adatok feldolgozása
+- Logolás
+v0.3
 - Adatbáziskapcsolat
 - Bejelentkezés
 - Rendelés és szállítás
