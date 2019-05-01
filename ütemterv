@@ -1,4 +1,4 @@
-ACT VER: v0.2
+ACT VER: v0.3
 v0.1
 - Login felület (PIPA)
 - Átirányítás (PIPA)
@@ -8,9 +8,9 @@ v0.2
 - Adatok feldolgozása (PIPA)
 - Logolás (PIPA)
 v0.3
-- Rendelési felület
-- Adatbázis kapcsolat
-- Bejelentkezés / Kijelentkezés
+- Rendelési felület (PIPA)
+- Adatbázis kapcsolat (PIPA)
+- Bejelentkezés / Kijelentkezés (PIPA)
 v0.4
 - Tervezési Minták bevonása
 - Tesztelések
