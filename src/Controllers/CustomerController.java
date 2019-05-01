@@ -2,9 +2,11 @@ package Controllers;
 
 import Models.CustomerModel;
 import Views.CustomerView;
+
 import javax.swing.table.DefaultTableModel;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.IOException;
 
 public class CustomerController {
     private  CustomerView view;
@@ -15,6 +17,7 @@ public class CustomerController {
         this.model = model;
 
         view.UploadActionListener(new UploadListener());
+        view.LogoutActionListener(new LogoutListener());
     }
 
     class UploadListener implements ActionListener
@@ -26,6 +29,17 @@ public class CustomerController {
             fullname = view.GetFullname();
             selectdrink = view.GetSelectedDrink();
             model.AddData(fullname, selectdrink, tablemodel);
+        }
+    }
+    class LogoutListener implements ActionListener{
+
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            try {
+                model.Logout();
+            } catch (IOException ex) {
+                ex.printStackTrace();
+            }
         }
     }
 }

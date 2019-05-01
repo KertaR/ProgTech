@@ -8,3 +8,43 @@ INFO: Sikeres bejelentkezés! (Valami)
 INFO: Adatok feltöltése...
 ápr. 24, 2019 2:37:39 DU. Models.CustomerModel AddData
 INFO: Adatok feltöltése...
+máj. 01, 2019 10:36:24 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés! (Valami) 
+máj. 01, 2019 10:37:49 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés! (Valami) 
+máj. 01, 2019 11:49:28 DE. Models.DBConnect <init>
+INFO: Hiba az adatbázis kapcsolat során. A hiba oka:java.sql.SQLException: The server time zone value 'Közép-európai nyári idõ' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+máj. 01, 2019 11:49:57 DE. Models.DBConnect <init>
+INFO: Hiba az adatbázis kapcsolat során. A hiba oka:java.sql.SQLException: The server time zone value 'Közép-európai nyári idõ' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+máj. 01, 2019 11:50:50 DE. Models.DBConnect <init>
+INFO: Hiba az adatbázis kapcsolat során. A hiba oka:java.sql.SQLException: The server time zone value 'Közép-európai nyári idõ' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+máj. 01, 2019 11:54:09 DE. Models.DBConnect <init>
+INFO: Hiba az adatbázis kapcsolat során. A hiba oka:java.sql.SQLException: The server time zone value 'Közép-európai nyári idõ' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+máj. 01, 2019 12:14:41 DU. Models.DBConnect IsUser
+INFO: Hiba az adatbázis kapcsolat során. A hiba oka:java.sql.SQLSyntaxErrorException: Unknown column 'Valami' in 'where clause'
+máj. 01, 2019 12:14:41 DU. Models.LoginModel IsUser
+INFO: Sikertelen bejelentkezés
+máj. 01, 2019 12:17:23 DU. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 01, 2019 12:32:30 DU. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 01, 2019 12:33:08 DU. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 01, 2019 12:33:51 DU. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 01, 2019 12:36:27 DU. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 01, 2019 12:36:29 DU. Models.CustomerModel Logout
+INFO: Kijelentkezés...
+máj. 01, 2019 12:39:13 DU. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 01, 2019 12:40:12 DU. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 01, 2019 12:41:30 DU. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 01, 2019 12:41:32 DU. Models.CustomerModel Logout
+INFO: Kijelentkezés...
+máj. 01, 2019 12:41:34 DU. Models.LoginModel IsUser
+INFO: Sikertelen bejelentkezés
+máj. 01, 2019 12:41:38 DU. Models.LoginModel IsUser
+INFO: Sikertelen bejelentkezés
