@@ -1,10 +1,38 @@
 package Views;
 
 import javax.swing.*;
+import javax.swing.table.DefaultTableModel;
+import java.awt.*;
+import java.awt.event.ActionListener;
 
-public class DeliveryView {
-    private JPanel panel1;
-    private JTable table1;
+public class DeliveryView extends JFrame {
+    private JPanel rootpanel;
+    private JTable datas;
     private JButton elfogadButton;
-    private JComboBox comboBox1;
+    private JComboBox Process;
+    private DefaultTableModel model;
+    public DeliveryView(){
+        add(rootpanel);
+        setTitle("Kiszállítás");
+        setSize(700,300);
+        datas.setDefaultEditor(Object.class, null);
+        datas.getTableHeader().setReorderingAllowed(false);
+        Object[] columns = {"ID","Felhasználónév", "Rendelés", "Folyamat", "Ár"};
+        model = new DefaultTableModel();
+        model.setColumnIdentifiers(columns);
+        datas.setModel(model);
+    }
+    public String GetProcess(){
+        return Process.getSelectedItem().toString();
+    }
+    public JTable GetDatas(){
+        return datas;
+    }
+    public DefaultTableModel GetModel(){
+        return model;
+    }
+    public void EditingActionListener(ActionListener listener)
+    {
+        this.elfogadButton.addActionListener(listener);
+    }
 }

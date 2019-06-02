@@ -15,6 +15,7 @@ public class LoginController {
         this.view = view;
         this.model = model;
         view.BejelentkezesActionListener(new BejelentkezesListener());
+        view.DeliveryBejelentkezesActionListener(new DeliveryBejelentkezesListener());
     }
 
     class BejelentkezesListener implements ActionListener
@@ -33,6 +34,29 @@ public class LoginController {
             if (model.IsUser(username,password)){
                 try {
                     model.Redirecting();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+
+    }
+    class DeliveryBejelentkezesListener implements ActionListener
+    {
+        /**
+         * Ha sikerül a bejelentkezés akkor átírányítja a másik felületre
+         * @param ae
+         */
+        @Override
+        public void actionPerformed(ActionEvent ae) {
+            String username,password = "";
+
+            username = view.GetUsername();
+            password = view.GetPassword();
+
+            if (model.IsUser(username,password)){
+                try {
+                    model.DeliveryRedirecting();
                 } catch (IOException e) {
                     e.printStackTrace();
                 }

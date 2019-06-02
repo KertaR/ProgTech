@@ -25,18 +25,9 @@
             <item value="Zöld Tea"/>
             <item value="Gyümölcs Tea"/>
             <item value="Fekete Tea"/>
-            <item value="Espresso"/>
-            <item value="Ristretto"/>
-            <item value="Doppio"/>
-            <item value="Espresso Macchiato"/>
-            <item value="Lungo"/>
-            <item value="Latte"/>
-            <item value="Rövid Macchiato"/>
-            <item value="Hosszú Macchiato"/>
-            <item value="Latte Macchiato"/>
-            <item value="Cappuccino"/>
-            <item value="Americano"/>
-            <item value="Espresso con panna"/>
+            <item value="Jeges kávé"/>
+            <item value="Hosszú kávé"/>
+            <item value="Rövid kávé"/>
           </model>
         </properties>
       </component>
@@ -81,7 +72,9 @@
         <children>
           <component id="2611" class="javax.swing.JTable" binding="datas">
             <constraints/>
-            <properties/>
+            <properties>
+              <enabled value="true"/>
+            </properties>
           </component>
         </children>
       </scrollpane>

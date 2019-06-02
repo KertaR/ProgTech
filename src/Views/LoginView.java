@@ -8,6 +8,7 @@ public class LoginView extends JFrame {
     private JTextField password;
     private JButton btn_bejelentkezes;
     private JPanel rootpanel;
+    private JButton btn_delivery;
 
     public LoginView() {
         add(rootpanel);
@@ -35,5 +36,9 @@ public class LoginView extends JFrame {
     public void BejelentkezesActionListener(ActionListener listener)
     {
         this.btn_bejelentkezes.addActionListener(listener);
+    }
+    public void DeliveryBejelentkezesActionListener(ActionListener listener)
+    {
+        this.btn_delivery.addActionListener(listener);
     }
 }

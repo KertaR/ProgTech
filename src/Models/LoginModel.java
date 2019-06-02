@@ -1,7 +1,9 @@
 package Models;
 import Controllers.CustomerController;
+import Controllers.DeliveryController;
 import Logger.Log;
 import Views.CustomerView;
+import Views.DeliveryView;
 
 import java.io.IOException;
 import java.util.logging.Level;
@@ -31,5 +33,11 @@ public class LoginModel {
         CustomerModel cm = new CustomerModel();
         CustomerController cc = new CustomerController(cv, cm);
         cv.setVisible(true);
+    }
+    public void DeliveryRedirecting() throws IOException {
+        DeliveryView dv = new DeliveryView();
+        DeliveryModel dm = new DeliveryModel();
+        DeliveryController dc = new DeliveryController(dv, dm);
+        dv.setVisible(true);
     }
 }

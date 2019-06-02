@@ -18,7 +18,8 @@ public class CustomerView extends JFrame {
         add(rootpanel);
         setTitle("Rendelés");
         setSize(700,300);
-
+        datas.setDefaultEditor(Object.class, null);
+        datas.getTableHeader().setReorderingAllowed(false);
         Object[] columns = {"Felhasználónév", "Rendelés", "Folyamat", "Ár"};
         model = new DefaultTableModel();
         model.setColumnIdentifiers(columns);
@@ -33,9 +34,6 @@ public class CustomerView extends JFrame {
     }
     public String GetSelectedDrink(){
         return selectdrink.getSelectedItem().toString();
-    }
-    public JTable GetDatas(){
-        return datas;
     }
     public void UploadActionListener(ActionListener listener)
     {

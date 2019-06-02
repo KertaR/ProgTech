@@ -48,3 +48,259 @@ máj. 01, 2019 12:41:34 DU. Models.LoginModel IsUser
 INFO: Sikertelen bejelentkezés
 máj. 01, 2019 12:41:38 DU. Models.LoginModel IsUser
 INFO: Sikertelen bejelentkezés
+máj. 05, 2019 9:49:30 DE. Models.DBConnect <init>
+INFO: Hiba az adatbázis kapcsolat során. A hiba oka:com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+máj. 05, 2019 9:50:29 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 05, 2019 10:57:12 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 05, 2019 10:57:18 DE. Models.CustomerModel AddData
+INFO: Adatok feltöltése...
+máj. 05, 2019 10:57:18 DE. Models.DBConnect AddData
+INFO: Hiba az adatbázis kapcsolat során. A hiba oka:java.sql.SQLSyntaxErrorException: Unknown column 'selecteddring' in 'field list'
+máj. 05, 2019 10:57:50 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 05, 2019 10:57:54 DE. Models.CustomerModel AddData
+INFO: Adatok feltöltése...
+máj. 05, 2019 10:57:54 DE. Models.DBConnect AddData
+INFO: Hiba az adatbázis kapcsolat során. A hiba oka:com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Incorrect integer value: 'kekeda' for column 'username' at row 1
+máj. 05, 2019 10:59:01 DE. Models.CustomerModel AddData
+INFO: Adatok feltöltése...
+máj. 05, 2019 11:44:01 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 05, 2019 11:46:09 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 05, 2019 11:46:11 DE. Models.CustomerModel AddData
+INFO: Adatok feltöltése...
+máj. 05, 2019 11:51:35 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 05, 2019 11:52:32 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 05, 2019 11:52:35 DE. Models.CustomerModel AddData
+INFO: Adatok feltöltése...
+máj. 05, 2019 12:05:33 DU. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 05, 2019 12:06:39 DU. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 05, 2019 12:13:56 DU. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 05, 2019 12:15:52 DU. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 05, 2019 12:17:45 DU. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 05, 2019 12:20:34 DU. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 05, 2019 1:01:06 DU. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 05, 2019 1:01:15 DU. Models.CustomerModel AddData
+INFO: Adatok feltöltése...
+máj. 05, 2019 2:36:13 DU. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 05, 2019 2:36:36 DU. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 12, 2019 6:52:46 DE. Models.DBConnect <init>
+INFO: Hiba az adatbázis kapcsolat során. A hiba oka:com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+máj. 12, 2019 6:53:24 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 12, 2019 6:53:28 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 12, 2019 6:56:28 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 12, 2019 6:57:25 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 12, 2019 6:58:29 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 12, 2019 7:00:05 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 12, 2019 7:02:51 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 12, 2019 7:03:33 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 12, 2019 7:03:59 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 12, 2019 7:04:41 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 12, 2019 7:33:37 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 12, 2019 7:37:02 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 12, 2019 7:37:55 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 12, 2019 7:45:52 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 12, 2019 8:13:40 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 12, 2019 8:13:44 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 12, 2019 8:15:35 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 12, 2019 8:15:39 DE. Models.DeliveryModel UpdateData
+INFO: Adatok módosítása...
+máj. 12, 2019 8:16:00 DE. Models.DeliveryModel UpdateData
+INFO: Adatok módosítása...
+máj. 12, 2019 8:16:15 DE. Models.DeliveryModel UpdateData
+INFO: Adatok módosítása...
+máj. 12, 2019 8:16:17 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 12, 2019 8:29:10 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 12, 2019 8:29:31 DE. Models.DeliveryModel UpdateData
+INFO: Adatok módosítása...
+máj. 12, 2019 8:29:42 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 12, 2019 8:30:40 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 12, 2019 8:30:44 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+máj. 12, 2019 8:30:49 DE. Models.DeliveryModel UpdateData
+INFO: Adatok módosítása...
+máj. 12, 2019 8:30:52 DE. Models.DeliveryModel UpdateData
+INFO: Adatok módosítása...
+jún. 02, 2019 9:34:58 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+jún. 02, 2019 9:35:06 DE. Models.DeliveryModel UpdateData
+INFO: Adatok módosítása...
+jún. 02, 2019 9:35:10 DE. Models.DeliveryModel UpdateData
+INFO: Adatok módosítása...
+jún. 02, 2019 9:43:16 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+jún. 02, 2019 9:43:21 DE. Models.DeliveryModel UpdateData
+INFO: Adatok módosítása...
+jún. 02, 2019 9:43:21 DE. Models.DBConnect UpdateProcessData
+INFO: Hiba az adatbázis kapcsolat során. A hiba oka:java.sql.SQLSyntaxErrorException: Table 'progtech.customers' doesn't exist
+jún. 02, 2019 9:43:55 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+jún. 02, 2019 9:44:02 DE. Models.DeliveryModel UpdateData
+INFO: Adatok módosítása...
+jún. 02, 2019 9:44:12 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+jún. 02, 2019 9:44:28 DE. Models.DeliveryModel UpdateData
+INFO: Adatok módosítása...
+jún. 02, 2019 9:44:45 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+jún. 02, 2019 9:46:08 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+jún. 02, 2019 9:46:12 DE. Models.DeliveryModel UpdateData
+INFO: Adatok módosítása...
+jún. 02, 2019 9:48:05 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+jún. 02, 2019 9:48:10 DE. Models.DeliveryModel UpdateData
+INFO: Adatok módosítása...
+jún. 02, 2019 9:48:10 DE. Models.DBConnect UpdateProcessData
+INFO: Hiba az adatbázis kapcsolat során. A hiba oka:java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 'Kiszállítás alatt.'WHERE id = '0'' at line 1
+jún. 02, 2019 9:48:55 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+jún. 02, 2019 9:48:59 DE. Models.DeliveryModel UpdateData
+INFO: Adatok módosítása...
+jún. 02, 2019 9:49:33 DE. Models.DeliveryModel UpdateData
+INFO: Adatok módosítása...
+jún. 02, 2019 9:49:37 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+jún. 02, 2019 9:49:40 DE. Models.DeliveryModel UpdateData
+INFO: Adatok módosítása...
+jún. 02, 2019 9:50:14 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+jún. 02, 2019 9:50:17 DE. Models.DeliveryModel UpdateData
+INFO: Adatok módosítása...
+jún. 02, 2019 9:51:37 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+jún. 02, 2019 9:51:42 DE. Models.DeliveryModel UpdateData
+INFO: Adatok módosítása...
+jún. 02, 2019 9:53:05 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+jún. 02, 2019 9:53:09 DE. Models.DeliveryModel UpdateData
+INFO: Adatok módosítása...
+jún. 02, 2019 9:53:12 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+jún. 02, 2019 9:53:16 DE. Models.DeliveryModel UpdateData
+INFO: Adatok módosítása...
+jún. 02, 2019 9:55:11 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+jún. 02, 2019 9:55:15 DE. Models.DeliveryModel UpdateData
+INFO: Adatok módosítása...
+jún. 02, 2019 9:58:20 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+jún. 02, 2019 9:58:29 DE. Models.DeliveryModel UpdateData
+INFO: Adatok módosítása...
+jún. 02, 2019 9:58:37 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+jún. 02, 2019 9:58:44 DE. Models.DeliveryModel UpdateData
+INFO: Adatok módosítása...
+jún. 02, 2019 9:58:48 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+jún. 02, 2019 9:58:57 DE. Models.DeliveryModel UpdateData
+INFO: Adatok módosítása...
+jún. 02, 2019 9:58:59 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+jún. 02, 2019 10:00:47 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+jún. 02, 2019 10:00:52 DE. Models.DeliveryModel UpdateData
+INFO: Adatok módosítása...
+jún. 02, 2019 10:01:24 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+jún. 02, 2019 10:03:02 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+jún. 02, 2019 10:03:05 DE. Models.DeliveryModel UpdateData
+INFO: Adatok módosítása...
+jún. 02, 2019 10:03:38 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+jún. 02, 2019 10:03:41 DE. Models.DeliveryModel UpdateData
+INFO: Adatok módosítása...
+jún. 02, 2019 10:03:44 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+jún. 02, 2019 10:04:24 DE. Models.DeliveryModel UpdateData
+INFO: Adatok módosítása...
+jún. 02, 2019 10:04:27 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+jún. 02, 2019 10:04:34 DE. Models.DeliveryModel UpdateData
+INFO: Adatok módosítása...
+jún. 02, 2019 10:04:36 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+jún. 02, 2019 10:04:40 DE. Models.DeliveryModel UpdateData
+INFO: Adatok módosítása...
+jún. 02, 2019 10:04:41 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+jún. 02, 2019 10:09:18 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+jún. 02, 2019 10:09:21 DE. Models.DeliveryModel UpdateData
+INFO: Adatok módosítása...
+jún. 02, 2019 10:19:21 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+jún. 02, 2019 10:19:24 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+jún. 02, 2019 10:21:06 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+jún. 02, 2019 10:21:09 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+jún. 02, 2019 10:23:53 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+jún. 02, 2019 10:23:58 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+jún. 02, 2019 10:24:02 DE. Models.CustomerModel AddData
+INFO: Adatok feltöltése...
+jún. 02, 2019 10:24:09 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+jún. 02, 2019 10:24:13 DE. Models.CustomerModel Logout
+INFO: Kijelentkezés...
+jún. 02, 2019 10:24:17 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+jún. 02, 2019 10:24:28 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+jún. 02, 2019 10:26:00 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+jún. 02, 2019 10:26:01 DE. Models.CustomerModel AddData
+INFO: Adatok feltöltése...
+jún. 02, 2019 10:26:55 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+jún. 02, 2019 10:26:58 DE. Models.DeliveryModel UpdateData
+INFO: Adatok módosítása...
+jún. 02, 2019 10:27:04 DE. Models.DeliveryModel UpdateData
+INFO: Adatok módosítása...
+jún. 02, 2019 10:27:06 DE. Models.LoginModel IsUser
+INFO: Sikeres bejelentkezés
+jún. 02, 2019 10:27:14 DE. Models.CustomerModel AddData
+INFO: Hiba..
