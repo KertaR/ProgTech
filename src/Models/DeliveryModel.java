@@ -1,5 +1,7 @@
 package Models;
 
+import Decorator.Cukor;
+import Decorator.Citrom;
 import Template.*;
 import Logger.Log;
 
@@ -37,16 +39,28 @@ public class DeliveryModel {
             tea = model.getValueAt(i,2).toString();
         }
         if (tea.equals("Zöld Tea")){
-            Tea t = new ZoldTea();
-            t.Elkeszit(szoveg);
+            Decorator.Tea dt = new Citrom(new Decorator.ZoldTea());
+            Template.Tea tt = new ZoldTea();
+            tt.Elkeszit(szoveg);
+            szoveg.append("Hozzávalók: \n");
+            szoveg.append(dt.GetMin() + " perc \n");
+            szoveg.append(dt.GetHozzavalok() + "\n");
         }
         if (tea.equals("Fekete Tea")){
-            Tea t = new FeketeTea();
-            t.Elkeszit(szoveg);
+            Decorator.Tea dt = new Decorator.FeketeTea();
+            Template.Tea tt = new FeketeTea();
+            tt.Elkeszit(szoveg);
+            szoveg.append("Hozzávalók: \n");
+            szoveg.append(dt.GetMin() + " perc \n");
+            szoveg.append(dt.GetHozzavalok() + "\n");
         }
         if (tea.equals("Gyümölcs Tea")){
-            Tea t = new GyumolcsTea();
-            t.Elkeszit(szoveg);
+            Decorator.Tea dt = new Cukor(new Citrom(new Decorator.GyumolcsTea()));
+            Template.Tea tt = new GyumolcsTea();
+            tt.Elkeszit(szoveg);
+            szoveg.append("Hozzávalók: \n");
+            szoveg.append(dt.GetMin() + " perc \n");
+            szoveg.append(dt.GetHozzavalok() + "\n");
         }
     }
 

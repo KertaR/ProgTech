@@ -10,9 +10,9 @@ import javax.swing.table.DefaultTableModel;
 
 public class DBConnect {
     Log mylog = new Log("logs.txt");
-    private Connection connection;
-    private Statement statement;
-    private ResultSet resultSet;
+    public Connection connection;
+    public Statement statement;
+    public ResultSet resultSet;
     public DBConnect() throws IOException {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
