@@ -10,6 +10,8 @@ public class DeliveryView extends JFrame {
     private JTable datas;
     private JButton elfogadButton;
     private JComboBox Process;
+    private JTextArea szovegdoboz;
+    private JButton elkeszites;
     private DefaultTableModel model;
     public DeliveryView(){
         add(rootpanel);
@@ -31,8 +33,13 @@ public class DeliveryView extends JFrame {
     public DefaultTableModel GetModel(){
         return model;
     }
+    public JTextArea GetSzovegdoboz() {return szovegdoboz; }
     public void EditingActionListener(ActionListener listener)
     {
         this.elfogadButton.addActionListener(listener);
+    }
+    public void ElkeszitesActionListener(ActionListener listener)
+    {
+        this.elkeszites.addActionListener(listener);
     }
 }

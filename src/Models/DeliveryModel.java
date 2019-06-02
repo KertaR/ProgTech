@@ -1,7 +1,9 @@
 package Models;
 
+import Template.*;
 import Logger.Log;
 
+import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.io.IOException;
 
@@ -27,6 +29,25 @@ public class DeliveryModel {
         }
         dbConnect.UpdateProcessData(process,id,model);
         GetData(model);
+    }
+    public void Elkeszites(JTextArea szoveg, int i, DefaultTableModel model){
+        mylog.logger.info("Adatok módosítása...");
+        String tea = "";
+        if (i>=0){
+            tea = model.getValueAt(i,2).toString();
+        }
+        if (tea.equals("Zöld Tea")){
+            Tea t = new ZoldTea();
+            t.Elkeszit(szoveg);
+        }
+        if (tea.equals("Fekete Tea")){
+            Tea t = new FeketeTea();
+            t.Elkeszit(szoveg);
+        }
+        if (tea.equals("Gyümölcs Tea")){
+            Tea t = new GyumolcsTea();
+            t.Elkeszit(szoveg);
+        }
     }
 
     /**

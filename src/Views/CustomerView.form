@@ -25,9 +25,6 @@
             <item value="Zöld Tea"/>
             <item value="Gyümölcs Tea"/>
             <item value="Fekete Tea"/>
-            <item value="Jeges kávé"/>
-            <item value="Hosszú kávé"/>
-            <item value="Rövid kávé"/>
           </model>
         </properties>
       </component>
